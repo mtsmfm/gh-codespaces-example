@@ -3,7 +3,7 @@ services:
   app:
     init: true
     build:
-      context: .
+      context: ..
     command: sleep infinity
     volumes:
       - ..:/app

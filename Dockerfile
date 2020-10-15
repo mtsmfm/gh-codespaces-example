@@ -1,5 +1,7 @@
 FROM ruby:2.7.2
 
+LABEL org.opencontainers.image.source https://github.com/mtsmfm/gh-codespaces-example
+
 ARG USERNAME=app
 ARG USER_UID=1000
 ARG USER_GID=$USER_UID
