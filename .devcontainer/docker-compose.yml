@@ -2,8 +2,7 @@ version: "3.7"
 services:
   app:
     init: true
-    build:
-      context: ..
+    image: ghcr.io/mtsmfm/gh-codespaces-example
     command: sleep infinity
     volumes:
       - ..:/app
